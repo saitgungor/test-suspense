@@ -9,7 +9,8 @@ const Component: FC = () => {
   const a = waitForThreeSeconds();
   return (
     <div className="text-2xl text-blue-400">
-      This is components data<h5>{a}</h5>
+      <h5> This is components data</h5>
+      <h5>{a}</h5>
     </div>
   );
 };
